@@ -6,6 +6,7 @@
 
 body {
   background-color: rgba(247, 234, 240, 0.61);
+  font-family: "Permanent Marker", cursive;
 }
 
 section {
@@ -28,6 +29,7 @@ section img {
   outline-offset: 15px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
   border-radius: 7px;
+  z-index: 10;
 }
 
 section img:hover {
@@ -115,4 +117,65 @@ section img:hover {
     opacity: 1;
     transform: translate(0);
   }
+}
+
+.clickme {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: red;
+  animation: centerandDisappear 3s ease-out 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes centerandDisappear {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: rotate(60deg);
+  }
+
+  /* 80% {
+    transform: translate(0);
+  }
+
+  100% {
+    opacity: 0;
+  } */
+}
+
+.emoji {
+  font-size: 20px;
+  position: absolute;
+  z-index: -1;
+}
+
+.em-1 {
+  top: 40%;
+  left: 50px;
+}
+
+.em-2 {
+  top: 35px;
+  left: 180px;
+}
+
+.em-3 {
+  top: 30%;
+  right: 50px;
+}
+
+.em-4 {
+  bottom: 5%;
+  left: 130px;
+}
+
+.em-5 {
+  bottom: 15%;
+  right: 65px;
 }
