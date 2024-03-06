@@ -124,7 +124,7 @@ section img:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -100px);
   color: red;
   animation: centerandDisappear 3s ease-out 2s;
   animation-fill-mode: backwards;
@@ -171,11 +171,11 @@ section img:hover {
 }
 
 .em-4 {
-  bottom: 140px;
+  bottom: 160px;
   left: 130px;
 }
 
 .em-5 {
-  bottom: 210px;
+  bottom: 230px;
   right: 65px;
 }
