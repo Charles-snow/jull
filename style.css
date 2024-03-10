@@ -33,14 +33,14 @@ section img {
 }
 
 section img:hover {
-  transform: scale(1.2) translateY(-10px);
+  transform: scale(1.5) translateY(-10px);
   outline: 15px solid rgb(241, 140, 157);
   box-shadow: 0 25px 40px rgba(0, 0, 0, 0.6);
   z-index: 20;
 }
 
 .first-img {
-  top: 85px;
+  top: 100px;
   left: 115px;
   animation: moveinUp 2s ease-out;
   animation-fill-mode: backwards;
@@ -54,7 +54,7 @@ section img:hover {
 }
 
 .third-img {
-  top: 310px;
+  top: 270px;
   left: 10px;
   width: 250px;
   animation: moveinBottom 2s ease-out;
@@ -171,11 +171,11 @@ section img:hover {
 }
 
 .em-4 {
-  bottom: 160px;
+  top: 470px;
   left: 130px;
 }
 
 .em-5 {
-  bottom: 230px;
-  right: 65px;
+  top: 430px;
+  right: 60px;
 }
